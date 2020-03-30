@@ -82,6 +82,15 @@ body {
     display: inline-block;
 }
 
+p {
+    font-family: montserrat, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+
 .mobile-menu__link {
     font-family: montserrat, arial, sans-serif;
     font-size: 14px;
@@ -149,18 +158,24 @@ body {
     border-right: none;
     outline: none;
 }
+
 main {
     background-color: antiquewhite;
+    min-height: 500px;
 }
+
 .products {
+    min-height: 480px;
     display: flex;
     justify-content: center;
     padding: 10px 0 10px 0;
     font-family: raleway, arial, sans-serif;
 }
+
 .product-item {
-    margin-left: 25px; 
+    margin-left: 25px;
 }
+
 footer {
     width: 1500px;
     min-height: 111px;
@@ -194,4 +209,180 @@ footer {
 .privacy:active,
 .designed:active {
     color: #555555;
+}
+
+.error-block {
+    background-color: rgba(0, 0, 0, .5);
+    justify-content: center;
+    display: flex;
+}
+
+.error-msg {
+    padding: 30px 20px;
+    background-color: red;
+    color: white;
+    position: relative;
+}
+
+.latest-news {
+    width: 1500px;
+    min-height: 508px;
+    box-sizing: border-box;
+    background-color: #191919;
+    margin: 0 auto;
+}
+
+.news-content {
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-left: 42px;
+    margin-left: 70px;
+}
+
+.waxom-about {
+    width: 376px;
+    margin-right: 42px;
+}
+
+.waxom-txt {
+    font-family: montserrat, arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #555555;
+    margin: 45px 0 33px 0;
+}
+
+.waxom-more {
+    font-family: montserrat, arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #d1d1d1;
+    text-decoration: none;
+    position: relative;
+}
+
+.waxom-more:after {
+    content: "";
+    border: 5px solid transparent;
+    border-left: 5px solid #d1d1d1;
+    position: absolute;
+    margin: 5px;
+}
+
+.logo-icon-latest-news {
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.logo-icon-latest-news {
+    fill: white;
+}
+
+.logo-txt-news {
+    position: absolute;
+    font-family: raleway, arial, sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    margin: -61px 0 0 70px;
+}
+
+.recent-title {
+    font-family: montserrat, arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.post-time {
+    font-family: montserrat, arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+}
+
+.recentpost-news {
+    margin-right: 50px;
+}
+
+.recentposts-txt {
+    width: 250px;
+    font-family: montserrat, arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.recentposts-txt:after {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 2px;
+    background-color: #252525;
+    margin-top: 21px;
+}
+
+.ourtwitter {
+    margin-right: 33px;
+}
+
+.twitter-title {
+    font-family: raleway, arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.twitter-txt {
+    width: 264px;
+    font-family: montserrat, arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    font-weight: 300;
+    color: #555555;
+}
+
+.time-ago {
+    font-family: montserrat, arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #363636;
+}
+
+.time-ago:after {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 2px;
+    background-color: #252525;
+    margin-top: 21px;
+}
+
+
+.dribble-widget {
+    width: 270px;
+}
+
+.dribble-widget-title {
+    font-family: raleway, arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
 }

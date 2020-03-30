@@ -1,4 +1,4 @@
-const filter_el = {
+Vue.component('filter_el', {
     data () {
         return {
             userSearch: ''
@@ -12,4 +12,4 @@ const filter_el = {
         </button>
     </form>
     `
-}
+})
